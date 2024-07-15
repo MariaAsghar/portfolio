@@ -10,8 +10,8 @@
 ## Education
 
 - MASTER OF COMPUTER SCIENCE | SPECIALISATION IN MACHINE LEARNING AND BIG DATA | University of Wollongong, Wollongong, Australia | Feb 2022 - July 2024 | Graduated with Distinction
-- BACHELOR OF SCIENCE IN COMPUTER SCIENCE | 
-Ghulam Ishaq Khan Institute of Engineering Sciences and Technology ,Swabi, Pakistan | August 2016 - September 2020 | CGPA : 3.08 (ON THE SCALE OF 1 TO 4 WHERE 4 IS THE HIGHEST)
+- BACHELOR OF SCIENCE IN COMPUTER SCIENCE
+- Ghulam Ishaq Khan Institute of Engineering Sciences and Technology ,Swabi, Pakistan | August 2016 - September 2020 | CGPA : 3.08 (ON THE SCALE OF 1 TO 4 WHERE 4 IS THE HIGHEST)
 
 ## Work Experience
 
