@@ -62,4 +62,4 @@ Designed and executed a project involving two core tasks: implementing precise e
 ### Data Mining Analysis of Marathon Times
 The project focused on analyzing marathon times with respect to age, time difference and gender. By applying a variety of data mining techniques to a 2013 dataset with 6,953 entries of race data. Utilized data visualization techniques to enhance understanding of the relationships between different variables in maratho data.
 
-- [Data Science Blog](https://medium.com/@shawhin)
+- [Data Science Blog](https://medium.com/@maria-asghar)
