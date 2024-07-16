@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+    .container {
+      width: 80%;
+      margin: 0 auto;
+      padding: 20px 0;
+    }
+    section {
+      background-color: #fff;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    .section-content {
+      overflow: hidden; /* Ensures content is hidden when collapsed */
+      transition: max-height 0.3s ease;
+      max-height: 0;
+    }
+    section.active .section-content {
+      max-height: 1000px; /* Adjust height as needed */
+    }
+    h2 {
+      background-color: #A020F0;
+      color: #fff;
+      padding: 10px;
+      margin: 0;
+      cursor: pointer;
+    }
+    h2:hover {
+      background-color: #0056b3;
+    }
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul li {
+      padding: 10px;
+      border-bottom: 1px solid #ccc;
+    }
+    ul li:last-child {
+      border-bottom: none;
+    }
+    a {
+      text-decoration: none;
+      color: #007bff;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header class="container">
+    <h1>My Portfolio</h1>
+    <p>Welcome to my portfolio. Here you can explore my skills, education, and projects.</p>
+  </header>
+
+  <div class="container">
+    <section id="skills">
+      <h2 onclick="toggleSection('skills')">Skills</h2>
+      <div class="section-content">
+        <ul>
+          <li>Languages: Python , R, SQL</li>
+          <li>Tools and frameworks: Pandas, Seaborn, matplotlib, numpy, Tensor flow, Scikit-learn , NLP , OpenCV</li>
+          <li>Professional Softwares : R Studio, Anaconda, Jupiter Notebook, Google Colab, Visual Studio Code, Spider, Virtual Box, Cisco Packet Tracer, Google Cloud Platform, Elastic Search, Github, Datagrip, Kibana, Slack, Jira, Tableau</li>
+          <li>Operating Systems : Windows, Linux, Mac</li>
+           </ul>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2 onclick="toggleSection('education')">Education</h2>
+      <div class="section-content">
+        <ul>
+      <li>
+        <h3>Master's Degree in Computer Science (Specialization in Machine Learning and Big Data)</h3>
+        <p>Universty of Wollongong, Australia</p>
+        <p>2022-2024</p>
+        <p>Awards: Distinction</p>
+      </li>
+      <li>
+        <h3>Bachelor's Degree in Computer Science</h3>
+        <p>Ghulam Ishaq Khan Institute of Engineering Sciences and Technology, Pakistan</p>
+        <p>2016-2020</p>
+        <p>CGPA: 3.08/4.00</p>
+      </li>
+    </ul>
+      </div>
+
+    </section>
+
+    <section id="Experience">
+      <h2 onclick="toggleSection('Experience')">Experience</h2>
+      <div class="section-content">
+        <ul>
+      <li>
+        <h3>RESEARCH ANALYST @ Exemplar Performance </h3>
+	<p>March 2023 - present</p>
+        <p>part-time</p>
+        <p>Sydney, Australia</p>
+        <p>Conducting comprehensive research and utilising credible sources, along with project management responsibilites<br/> Analysing data, identifying patterns and trends, and drawing meaningful conclusions.<br/> Generating reports with key insights, presenting findings to stakeholders, and contributing to decision-making processes.<br/> Research on developing new Fintech Product and make analysis reports and charts.	</ul>
+      </li>
+      <li>
+        <h3>RESEARCH ANALYST @ Exemplar Performance </h3>
+	<p>March 2023 - present</p>
+        <p>part-time</p>
+        <p>Sydney, Australia</p>
+        <p>Conducting comprehensive research and utilising credible sources, along with project management responsibilites<br/> Analysing data, identifying patterns and trends, and drawing meaningful conclusions.<br/> Generating reports with key insights, presenting findings to stakeholders, and contributing to decision-making processes.<br/> Research on developing new Fintech Product and make analysis reports and charts.	</ul>
+
+      </li>
+    </ul>
+      </div>
+    </section>
+
+   <section id="projects">
+  <h2 onclick="toggleSection('projects')">Projects</h2>
+  <div class="section-content">
+    <ul>
+      <li>
+        <img src="project1.jpg" alt="Project 1 Image">
+        <div class="project-info">
+          <a href="project1.html">Project 1 Name</a>
+          <p>Description of Project 1.</p>
+        </div>
+      </li>
+      <li>
+        <img src="project2.jpg" alt="Project 2 Image">
+        <div class="project-info">
+          <a href="project2.html">Project 2 Name</a>
+          <p>Description of Project 2.</p>
+        </div>
+      </li>
+      <li>
+        <img src="project3.jpg" alt="Project 3 Image">
+        <div class="project-info">
+          <a href="project3.html">Project 3 Name</a>
+          <p>Description of Project 3.</p>
+        </div>
+      </li>
+      <!-- Add more projects as needed -->
+    </ul>
+  </div>
+</section>
+
+  <script>
+    function toggleSection(sectionId) {
+      const section = document.getElementById(sectionId);
+      section.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
