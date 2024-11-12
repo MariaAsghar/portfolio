@@ -1,0 +1,338 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Gill Sans', sans-serif;
+     background-color: white ;
+    color: #4e3629; /* Dark brown text */
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #3b5c9a; /* Royal Blue */
+    color: #fff;
+    padding: 15px 1px;
+       margin-bottom: 0px;
+    width: 100%; /* Make header full-width */
+
+
+}
+
+header .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-top: 20px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+
+
+}
+#navigator 
+{
+background-color : #F5DEB3
+
+}
+
+.social-links a:hover {
+    color: Blue; }
+
+/* Navigation */
+nav {
+    margin-top: 0px;
+   padding: 20px 0; /* Padding for nav */
+    border-radius: 10px; /* Rounded corners for nav */
+    margin-bottom: 20px;
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: Black; /* Dark brown */
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+nav a:hover {
+    color:  #3b5c9a;
+}
+#about a{
+  font-size: 20px;
+    color: #fff; /* Default color for social icons */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20%;
+    background-color: #D2B48C; /* Dark Brown */
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+#about p{
+   padding: 15px 1px;
+      margin-left: 80px;
+    padding: 15px 1px;
+   margin-right : 80px;
+}
+
+/* Section Separator */
+.section-separator {
+    border-top: 2px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Section Styles */
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3b5c9a; /* Royal Blue */
+}
+
+
+/* Skills Section */
+#skills {
+    margin-bottom: 60px;
+    text-align: middle;
+}
+
+#skills h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3b5c9a; /* Royal Blue */
+}
+
+.skills-list {
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 16px;
+    text-align: left;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.skills-list li {
+    margin-bottom: 15px;
+    color: #4e3629; /* Dark brown text */
+}
+
+.skills-list li strong {
+    color: #3b5c9a; /* Royal Blue for categories */
+}
+
+/* Project Cards */
+.project-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.project-card {
+  
+    background-color:#FAEBD7; /* #f9f1e2 Soft nude background */
+
+    border-radius: 10px;
+    width: 280px;
+    min-height: 280px; /* Minimum height ensures the card has some size */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+    flex-direction: column; /* Ensures that the content flows vertically */
+    padding: 20px;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+    margin-bottom: 5px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1; /* Allow the card to expand if needed */
+}
+
+.project-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3b5c9a; /* Royal Blue */
+}
+/* Project Category */
+.project-category {
+    margin-bottom: 40px;
+}
+
+.project-category h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3b5c9a; /* Royal Blue */
+}
+.project-card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.project-card a {
+    font-size: 16px;
+    color: #3b5c9a;
+    text-decoration: none;
+}
+
+.project-card a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+
+
+/* Article Section */
+.article-section {
+    margin-bottom: 40px;
+}
+.article-section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #3b5c9a; /* Royal Blue */
+}
+
+.article-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.article-card {
+    background-color:#FAEBD7;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.article-card:hover {
+    transform: translateY(-10px);
+}
+
+.article-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #3b5c9a;
+}
+
+.article-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.article-card a {
+    font-size: 16px;
+    color: #3b5c9a; /* Royal Blue */
+    text-decoration: none;
+}
+
+.article-card a:hover {
+    color: #ffd700; /* Gold hover effect */
+}
+<!--
+/* Footer */
+footer {
+    margin-top: 40px;
+    font-size: 16px;
+    color: #4e3629;
+}
+
+footer a {
+    color: #3b5c9a; /* Royal Blue */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}-->
+/* Footer */
+footer {
+    background-color: #3b5c9a; /* Royal Blue */
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 40px;
+    text-align: center;
+}
+
+footer .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color:  #D2B48C;
+    text-decoration: none;
+}
+
+footer .social-links-footer {
+    margin-top: 20px;
+}
+
+footer .social-links-footer a {
+    font-size: 20px;
+    color: #fff; /* Default color for social icons */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #D2B48C; 
+    transition: background-color 0.3s, transform 0.3s, color 0.3s;
+}
+
+footer .social-links-footer a:hover {
+    background-color: #f9f1e2; /* White background on hover */
+    color: #3b5c9a; /* Royal Blue icons on hover */
+    transform: scale(1.1);
+}
+
